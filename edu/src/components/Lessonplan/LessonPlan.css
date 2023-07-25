@@ -1,0 +1,75 @@
+/* LessonPlan.css */
+
+.lesson-plan {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lesson {
+  background-color: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.lesson h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.lesson p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.lesson-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.lesson-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-lesson {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+}
+
+.add-lesson h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lesson-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-lesson-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-lesson-btn:hover {
+  background-color: #45a049;
+}

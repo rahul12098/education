@@ -1,0 +1,134 @@
+/* AssessmentMethods.css */
+
+.assessment-methods {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .quiz-form {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-question-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-question-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .quiz-questions .question {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-questions .question h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-questions .question .question-options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quiz-questions .question .question-options li {
+    margin-bottom: 8px;
+  }
+  
+  /* AssessmentMethods.css */
+
+/* ... (existing styles) ... */
+
+.add-option-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-option-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .quiz-questions .question .question-options input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  .submit-quiz-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-quiz-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* ... (existing styles) ... */
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .assessment-methods {
+      padding: 10px;
+    }
+  
+    .quiz-form {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .quiz-form h3 {
+      font-size: 18px;
+    }
+  
+    .quiz-questions .question {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .quiz-questions .question h3 {
+      font-size: 18px;
+    }
+
+    
+  }
+  
